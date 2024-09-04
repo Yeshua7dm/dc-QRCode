@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+body {
+  background-color: #0e111e;
+  background-image: url("/images/bg-illustration.svg");
+  background-repeat: no-repeat;
+  background-size: 90vh;
+  background-position-x: right;
+}
+
+#main-logo img {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 90vw;
+  margin: auto;
+}
+
+#main-logo {
+  /* width: 200px; */
+  margin-top: 40px;
+  /* display: flex; */
+  justify-content: flex-start;
+}
+
+form {
+  margin: 240px auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.input-field {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 2px solid #3662e3;
+  background-color: #030712;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+input {
+  width: 75%;
+  padding: 1rem 1.5rem;
+  padding-right: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  /* remove background and let it match container */
+  background-color: transparent;
+  color: #fff;
+}
+
+button {
+  background-color: #3662e3;
+  color: #fff;
+  border: none;
+  padding: 1rem 40px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f4fe8;
+}
+
+.qr-code-display {
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+footer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.action-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 307px;
+  height: 307px;
+  background-color: #172040;
+  border-radius: 50%;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
